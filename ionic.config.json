@@ -1,5 +1,7 @@
 {
   "name": "ZedElect",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

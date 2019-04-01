@@ -14,11 +14,7 @@
           </div>
           <div padding>
             <ion-item>
-              <ion-input  name="firstname" type="text" placeholder="First Name" ngModel required></ion-input>
-            </ion-item>
-			
-			<ion-item>
-              <ion-input  name="lastname" type="text" placeholder="Last Name" ngModel required></ion-input>
+              <ion-input  name="name" type="text" placeholder="Name" ngModel required></ion-input>
             </ion-item>
 			
 			<ion-item>
@@ -30,11 +26,11 @@
             </ion-item>
 			
             <ion-item>
-              <ion-input name="province" type="email" placeholder="Province" ngModel required></ion-input>
+              <ion-input name="province" type="text" placeholder="Province" ngModel required></ion-input>
             </ion-item>
 			
             <ion-item>
-              <ion-input name="nrc" type="email" placeholder="NRC" ngModel required></ion-input>
+              <ion-input name="nrc" type="text" placeholder="NRC" ngModel required></ion-input>
             </ion-item>
 			
             <ion-item>
@@ -46,7 +42,7 @@
             </ion-item>
           </div>
           <div padding>
-            <ion-button  size="large" type="submit" [disabled]="form.invalid" expand="block">Register</ion-button>
+            <ion-button  size="large" type="submit" expand="block">Register</ion-button>
           </div>
         </ion-col>
       </ion-row>
